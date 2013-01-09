@@ -1,0 +1,25 @@
+{
+    "name": "jchine/kss-php",
+    "type": "library",
+    "description": "This is a Php implementation of Knyle Style Sheet (KSS).",
+    "homepage": "",
+    "license": [
+      "MIT",
+      "GPL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Jonathan Chiné",
+            "email": "jonathan.chine@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "leafo/lessphp": ">=0.3.8",
+        "leafo/scssphp": ">=0.0.4",
+    },
+    "autoload": {
+        "classmap": ["lessc.inc.php"]
+    }
+}

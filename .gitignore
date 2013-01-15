@@ -161,3 +161,24 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+#############
+## Sublime Text 2
+#############
+
+#Project files
+.sublime-workspace
+.sublime-project
+
+#############
+## Project
+#############
+
+# Composer
+composer.lock
+
+# Components/Vendors 
+vendor/*
+
+#Cache files
+cache/*

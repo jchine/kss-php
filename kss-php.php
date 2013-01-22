@@ -8,19 +8,8 @@
  * file that was distributed with this source code.
  */
 
-/** 
- * Default used example.
- * http://www.imaginanet.com/blog/preprocesar-hojas-de-estilo-con-less.html
- */
-
 // Installed via Composer 
 require_once __DIR__.'/vendor/autoload.php';  
-
-// Loading templates with Twig
-$loader = new Twig_Loader_Filesystem(__DIR__.'/resources/views');
-$twig = new Twig_Environment($loader, array(
-    'cache' => __DIR__.'cache',
-));
 
 $kss = new Kss\Parser(__DIR__."/test/fixtures/css");
 
@@ -38,3 +27,5 @@ echo "First modifier: " . $first->name() . "<br />";
 echo "Pseudo class: " . $first->class_name() . "<br />";
 // Description of modifier: 
 echo "Description modifier: " . $first->description() . "<br />";
+
+?>

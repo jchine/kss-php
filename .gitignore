@@ -181,4 +181,4 @@ composer.lock
 vendor/*
 
 #Cache files
-cache/*
+example/cache/*

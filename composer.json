@@ -16,9 +16,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "twig/twig": "1.*",
-        "leafo/lessphp": ">=0.3.8",
-        "leafo/scssphp": ">=0.0.4"
+        "twig/twig": "1.*"
     },
     "autoload": {
         "psr-0": { "Kss": "lib/" }

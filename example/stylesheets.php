@@ -5,6 +5,13 @@
 * Used preprocessor CSS (Sass, Less. Stylus is not in Php )
 * 
 * http://www.imaginanet.com/blog/preprocesar-hojas-de-estilo-con-less.html
+* Composer include css preproccessors (Less, Sass, Scss, Stylus)
+*      "require": {
+*      ...
+*      "leafo/lessphp": ">=0.3.8",
+*      "leafo/scssphp": ">=0.0.4",
+*      ...
+*      }
 */
 
 // Installed via Composer 

@@ -1,5 +1,5 @@
 {
-    "name": "jchine/kss-php",
+    "name": "kss/kss-php",
     "type": "library",
     "description": "This is a Php implementation of Knyle Style Sheet (KSS).",
     "homepage": "",

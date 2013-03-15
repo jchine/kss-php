@@ -2,6 +2,7 @@
     "name": "kss/kss-php",
     "type": "library",
     "description": "This is a Php implementation of Knyle Style Sheet (KSS).",
+    "version": "0.0.1",
     "homepage": "",
     "license": [
       "MIT",
